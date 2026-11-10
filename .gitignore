@@ -1,0 +1,29 @@
+# build output (dist\ = the release, uploaded by hand)
+build/
+dist/
+__pycache__/
+*.pyc
+
+# per-user files next to the program
+config.json
+credentials.json
+log.txt
+
+# dev material: messy, large, or possibly copyrighted
+inspo/
+old wip/
+.claude/
+shots/
+
+# the trailer: the music is not ours to publish, the videos and their working files are generated
+trailer/*.mp3
+trailer/*.mp4
+trailer/work/
+
+# test audio: the author's real samples and generated folders (rebuilt by test/make_*.py, promo_shots.py)
+test/testfiles/
+test/session5_samples/
+test/session5_audition/
+test/session6_samples/
+test/session6_work/
+test/promo_samples/
